@@ -53,7 +53,7 @@ webgazer
   })
   .begin();
 
-webgazer.showVideoPreview(false).showPredictionPoints(false);
+// webgazer.showVideoPreview(false).showPredictionPoints(false);
 
 function getNewImage(next = false) {
   const img = document.createElement("img");
